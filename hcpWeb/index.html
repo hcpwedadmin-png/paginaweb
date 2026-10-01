@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light">
+    <title>HCP Consultores y Contadores | Inicio</title>
+    <meta name="description" content="HCP Consultores y Contadores - Servicios contables, fiscales y de consultoría empresarial.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://hcpconsultores.com/">
+    <link rel="icon" type="image/webp" href="img/favicon.webp">
+
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+          crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar-hcp">
+        <div class="navbar-inner">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/hcpSF.webp" alt="HCP Consultores">
+            </a>
+
+            <button class="navbar-toggler" type="button" id="navToggle" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="navbar-menu" id="navbarMenu">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contactenos.html">Contáctenos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============ BARRA DE CONTACTO ============ -->
+    <div class="contact-bar">
+        <a href="mailto:Hcpconsultores1@gmail.com" class="contact-box">
+            <i class="bi bi-envelope-fill"></i>
+            <span class="email-text">Hcpconsultores1@gmail.com</span>
+        </a>
+
+        <div class="contact-box social-box">
+            <a href="https://api.whatsapp.com/send/?phone=584142104215&text=Hola+HCP+Consultores%2C+necesito+asesor%C3%ADa+contable&type=phone_number&app_absent=0"
+               target="_blank" rel="noopener" aria-label="WhatsApp">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com/hcpconsultores"
+               target="_blank" rel="noopener" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+            </a>
+        </div>
+    </div>
+
+            <!-- ============ HERO / VIDEO DE FONDO ============ -->
+    <section class="hero" id="hero" aria-label="Banner principal">
+        <video class="hero-video"
+               autoplay
+               muted
+               loop
+               playsinline
+               preload="auto"
+               poster="img/banner/poster.webp">
+            <source src="img/banner/banner.mp4" type="video/mp4">
+            <source src="img/banner/banner.webm" type="video/webm">
+            <img src="img/banner/banner1.webp" alt="HCP Consultores">
+        </video>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <!-- Columna izquierda: slides rotando -->
+            <div class="hero-slider" id="heroSlider">
+
+                <!-- Slide 1 -->
+                <div class="hero-slide-texto active">
+                    <h1 class="hero-slide-titulo">HCP Consultores y Contadores</h1>
+                    <p class="hero-slide-cuerpo">
+                        Con más de 20 años de experiencia y un equipo de profesionales
+                        en distintas industrias, podemos ayudarte a garantizar la
+                        transparencia financiera, optimizar las operaciones y cumplir
+                        con las leyes y regulaciones a las cuales está obligada tu
+                        empresa u organización, a través de:
+                    </p>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="hero-slide-texto">
+                    <h2 class="hero-slide-titulo">Auditorías</h2>
+                    <p class="hero-slide-cuerpo">
+                        Revisión de los estados financieros; aportar credibilidad ante
+                        instituciones financieras, socios, inversores a través de
+                        certificaciones; e identificar posibles fallas en la estructura
+                        de control interno y la prevención de riesgos de fraude y
+                        posibles errores materiales.
+                    </p>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="hero-slide-texto">
+                    <h2 class="hero-slide-titulo">Consultoría</h2>
+                    <p class="hero-slide-cuerpo">
+                        Mejoras de procesos y la gestión de riesgos, revisión y
+                        optimización de asuntos fiscales, y ayudarte a ser más
+                        eficientes tus operaciones haciéndolas más rentables,
+                        evaluación y gestión de estructuras de costos.
+                    </p>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="hero-slide-texto">
+                    <h2 class="hero-slide-titulo">Conozca más</h2>
+                    <p class="hero-slide-cuerpo">
+                        Para más detalles sobre nuestros servicios visite la sección
+                        <a href="servicios.html" class="hero-slide-link">Servicios</a>
+                        o escríbanos desde
+                        <a href="contactenos.html" class="hero-slide-link">Contáctenos</a>.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Columna derecha: botones -->
+            <div class="hero-controles">
+                <button class="hero-nav-btn" id="heroPrev" aria-label="Slide anterior">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                <button class="hero-nav-btn" id="heroNext" aria-label="Slide siguiente">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+            </div>
+
+        </div>
+    </section>
+    <!-- ============ QUIÉNES SOMOS ============ -->
+    <section class="section" id="quienes-somos">
+        <div class="container">
+            <h2 class="section-title">Quiénes Somos</h2>
+
+            <div class="quienes-grid">
+                <div class="quienes-texto reveal reveal-from-right">
+                    <p>Somos una firma de auditoría y consultoría orientada a servir de
+                    soporte a nuestros clientes a través de la aplicación de nuestras
+                    experiencias de más de 20 años en diferentes industrias.</p>
+                    <p>Nuestro principal objetivo es brindar servicios y soluciones de
+                    negocios y asesorías gerenciales de alta calidad.</p>
+                    <p>Contamos para ello con un grupo de profesionales altamente
+                    calificados con amplia experiencia en diversas áreas de negocios.</p>
+                </div>
+
+                <div class="quienes-imagen reveal reveal-from-left">
+                    <img src="img/buble.webp" alt="" class="quienes-buble" aria-hidden="true">
+                    <img src="img/who.webp" alt="Equipo HCP Consultores" class="quienes-ph">
+
+                    <div class="quienes-badge">
+                        <span class="quienes-badge-numero">+20</span>
+                        <span class="quienes-badge-texto">años de experiencia</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ LO QUE NOS IDENTIFICA ============ -->
+    <section class="section section-alt" id="identifica">
+        <div class="container">
+            <h2 class="section-title">Lo que nos identifica</h2>
+
+            <div class="identifica-grid">
+                <article class="identifica-card reveal reveal-from-bottom reveal-delay-1">
+                    <div class="identifica-icon">
+                        <i class="bi bi-person-heart"></i>
+                    </div>
+                    <h3 class="identifica-titulo">Vocación al cliente</h3>
+                    <p class="identifica-texto">
+                        Los clientes son nuestra razón de ser, de allí que nos aboquemos
+                        a ellos personalizadamente, de forma que se sientan debidamente atendidos.
+                    </p>
+                </article>
+
+                <article class="identifica-card reveal reveal-from-bottom reveal-delay-2">
+                    <div class="identifica-icon">
+                        <i class="bi bi-clock-history"></i>
+                    </div>
+                    <h3 class="identifica-titulo">Oportunidad</h3>
+                    <p class="identifica-texto">
+                        El producto de nuestras asesorías es presentado en los tiempos
+                        acordados con nuestros clientes, de forma que cumplan con los
+                        objetivos para los cuales fueron contratados.
+                    </p>
+                </article>
+
+                <article class="identifica-card reveal reveal-from-bottom reveal-delay-3">
+                    <div class="identifica-icon">
+                        <i class="bi bi-chat-dots"></i>
+                    </div>
+                    <h3 class="identifica-titulo">Comunicación</h3>
+                    <p class="identifica-texto">
+                        Para nosotros es muy importante que nuestros clientes estén
+                        informados del desarrollo en cada etapa de los trabajos que
+                        realizamos; esto les ayudará a estar claros con los resultados
+                        y tomar decisiones oportunas.
+                    </p>
+                </article>
+
+                <article class="identifica-card reveal reveal-from-bottom reveal-delay-4">
+                    <div class="identifica-icon">
+                        <i class="bi bi-award"></i>
+                    </div>
+                    <h3 class="identifica-titulo">Calidad</h3>
+                    <p class="identifica-texto">
+                        Basados en la aplicación de las mejores prácticas, cumplimiento
+                        de normas y seguimiento constante por parte del socio responsable
+                        del trabajo contratado.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ BANNER EQUIPO ============ -->
+    <section class="banner-equipo">
+        <div class="container">
+            <div class="banner-equipo-grid">
+                <div class="banner-equipo-titulo reveal reveal-from-left">
+                    <span class="banner-equipo-etiqueta">Nuestro equipo</span>
+                    <h2>HCP Consultores<br>y Contadores</h2>
+                </div>
+
+                <div class="banner-equipo-texto reveal reveal-from-right">
+                    <p>
+                        Contamos con un equipo de profesionales en pre y post-grado de
+                        diversas universidades del país, lo cual nos permite formar
+                        equipos multidisciplinarios con el objetivo de identificar riesgos
+                        en distintas áreas para nuestros clientes y diseñamos soluciones
+                        que resguardan los bienes de las organizaciones que nos contratan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SECTORES QUE HEMOS ATENDIDO ============ -->
+    <section class="section" id="sectores">
+        <div class="container">
+            <h2 class="section-title">Sectores que hemos atendido</h2>
+        </div>
+
+        <div class="sectores-carousel" id="sectoresCarousel">
+            <div class="sectores-track" id="sectoresTrack">
+                <!-- 1. Automotriz -->
+                <article class="sector-card">
+                    <div class="sector-icon">
+                        <i class="bi bi-car-front-fill"></i>
+                    </div>
+                    <h3 class="sector-nombre">Automotriz</h3>
+                </article>
+
+                <!-- 2. Minería y Manufactura -->
+                <article class="sector-card">
+                    <div class="sector-icon">
+                        <i class="bi bi-gear-wide-connected"></i>
+                    </div>
+                    <h3 class="sector-nombre">Minería y Manufactura</h3>
+                </article>
+
+                <!-- 3. Hotelería -->
+                <article class="sector-card">
+                    <div class="sector-icon">
+                        <i class="bi bi-building-fill"></i>
+                    </div>
+                    <h3 class="sector-nombre">Hotelería</h3>
+                </article>
+
+                <!-- 4. Servicios Portuarios (ancla SVG) -->
+                <article class="sector-card">
+                    <div class="sector-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor"
+                             stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                             aria-hidden="true">
+                            <circle cx="12" cy="5" r="2.5"></circle>
+                            <line x1="12" y1="7.5" x2="12" y2="21"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <path d="M5 12 C5 17, 8 20, 12 21"></path>
+                            <path d="M19 12 C19 17, 16 20, 12 21"></path>
+                        </svg>
+                    </div>
+                    <h3 class="sector-nombre">Servicios Portuarios</h3>
+                </article>
+
+                <!-- 5. Consumo Masivo y Servicios -->
+                <article class="sector-card">
+                    <div class="sector-icon">
+                        <i class="bi bi-bag-fill"></i>
+                    </div>
+                    <h3 class="sector-nombre">Consumo Masivo y Servicios</h3>
+                </article>
+
+                <!-- 6. Ganadería -->
+                <article class="sector-card">
+                    <div class="sector-icon">
+                        <i class="bi bi-tree-fill"></i>
+                    </div>
+                    <h3 class="sector-nombre">Ganadería</h3>
+                </article>
+
+                <!-- 7. Construcción -->
+                <article class="sector-card">
+                    <div class="sector-icon">
+                        <i class="bi bi-hammer"></i>
+                    </div>
+                    <h3 class="sector-nombre">Construcción</h3>
+                </article>
+
+                <!-- 8. Aeronáutica -->
+                <article class="sector-card">
+                    <div class="sector-icon">
+                        <i class="bi bi-airplane-fill"></i>
+                    </div>
+                    <h3 class="sector-nombre">Aeronáutica</h3>
+                </article>
+
+                <!-- 9. Tecnología -->
+                <article class="sector-card">
+                    <div class="sector-icon">
+                        <i class="bi bi-cpu-fill"></i>
+                    </div>
+                    <h3 class="sector-nombre">Tecnología</h3>
+                </article>
+            </div>
+
+            <!-- Dots -->
+            <div class="sectores-dots" id="sectoresDots"></div>
+        </div>
+    </section>
+
+        <!-- ============ BANNER FINAL ============ -->
+    <section class="banner-final">
+        <div class="container">
+            <div class="banner-final-grid">
+
+                <!-- Columna izquierda: logo + textos -->
+                <div class="banner-final-izquierda reveal reveal-from-left">
+                    <img src="img/logobsf.webp"
+                         alt="HCP Consultores y Contadores"
+                         class="banner-final-logo">
+
+                    <div class="banner-final-texto">
+                        <p>Somos una firma de auditoría y consultoría orientada a servir de
+                        soporte a nuestros clientes a través de la aplicación de nuestras
+                        experiencias de más de 20 años en diferentes industrias.</p>
+                        <p>Nuestro principal objetivo es brindar servicios y soluciones de
+                        negocios y asesorías gerenciales de alta calidad.</p>
+                        <p>Contamos para ello con un grupo de profesionales altamente
+                        calificados con amplia experiencia en diversas áreas de negocios.</p>
+                    </div>
+                </div>
+
+                <!-- Columna derecha: navegación -->
+                <div class="banner-final-derecha reveal reveal-from-right">
+                    <span class="banner-final-etiqueta">Navegación</span>
+                    <ul class="banner-final-nav">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="contactenos.html">Contáctenos</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> HCP Consultores y Contadores. Rif.: 406903434. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+
+    <!-- JS propio -->
+    <script src="js/main.js"></script>
+</body>
+</html>
